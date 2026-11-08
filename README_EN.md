@@ -8,6 +8,23 @@ A resolution switcher for wired external displays under vivo X Fold6 PC Mode.
 
 In vivo X Fold6 PC Mode, an HDMI-connected external display is locked to a 2K render size by the system. This app uses Shizuku to run shell commands and switch the external display render size to 4K, or restore it back to 2K.
 
+The panel itself is 3840×2160 @ 60Hz, but the system only renders 2560×1440 by default. This tool restores what gets cut.
+
+### Screenshots (2K vs 4K)
+
+Same monitor, same HDMI cable, one tap apart:
+
+| 2K default (system override) | 4K Ultra (after switching) |
+| --- | --- |
+| ![2K default](./assets/01-app-2k.png) | ![4K Ultra](./assets/02-app-4k.png) |
+| Render 2560 × 1440, state: 2K (overridden by system) | Render 3840 × 2160, state: 4K (native) |
+
+### Built-in guide
+
+4 steps to set up Shizuku, all on the phone, no desktop ADB:
+
+![Help dialog](./assets/03-help.png)
+
 ## Compatibility
 
 - Tested device: vivo X Fold6
