@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- 图标底色：取自图标渐变边缘的绿色，自适应图标被裁形状时露出的底色 -->
+    <color name="ic_launcher_background">#41AC66</color>
+    <!-- 品牌绿：帮助入口、插图统一用这个色 -->
+    <color name="brand_green">#2FB36B</color>
+</resources>

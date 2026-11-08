@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+    <!-- 手机 -->
+    <path
+        android:pathData="M5,7 h10 a2.5,2.5 0 0 1 2.5,2.5 v17 a2.5,2.5 0 0 1 -2.5,2.5 h-10 a2.5,2.5 0 0 1 -2.5,-2.5 v-17 a2.5,2.5 0 0 1 2.5,-2.5 z"
+        android:strokeColor="#2FB36B"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+    <!-- 外接屏 -->
+    <path
+        android:pathData="M22,12 h9 a2,2 0 0 1 2,2 v8 a2,2 0 0 1 -2,2 h-9 a2,2 0 0 1 -2,-2 v-8 a2,2 0 0 1 2,-2 z"
+        android:strokeColor="#2FB36B"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M25,28 h6"
+        android:strokeColor="#2FB36B"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+    <!-- 连接线 -->
+    <path
+        android:pathData="M18,18 h2"
+        android:strokeColor="#2FB36B"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+</vector>

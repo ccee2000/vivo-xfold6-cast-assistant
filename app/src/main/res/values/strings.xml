@@ -1,0 +1,58 @@
+<resources>
+    <!-- 桌面显示名 -->
+    <string name="app_name">X Fold6 投屏助手</string>
+    <!-- 应用内标题 / 关于页用的完整名称 -->
+    <string name="app_name_full">vivo X Fold6 投屏助手</string>
+    <!-- 英文名 -->
+    <string name="app_name_en">X Fold6 Cast</string>
+    <string name="app_name_en_full">vivo X Fold6 Cast Assistant</string>
+    <string name="app_subtitle_en">4K / 2K Display Switch</string>
+
+    <!-- 页面标题（分两行排版，避免长标题被挤或折行难看） -->
+    <string name="title_brand">vivo X Fold6</string>
+    <string name="title_main">外接屏分辨率切换</string>
+    <string name="title_hint">建议使用 HDMI 有线连接（vivo 电脑模式）</string>
+
+    <!-- 顶部状态信息 -->
+    <string name="status_device">vivo X Fold6 · 电脑模式专用</string>
+    <string name="status_os">系统支持：OriginOS 6（已实测通过）</string>
+    <string name="status_os_warn">升级 OriginOS 7 后兼容性未知，请谨慎升级</string>
+
+    <!-- 切换按钮 -->
+    <string name="btn_4k">4K 超清</string>
+    <string name="btn_2k">2K 默认</string>
+
+    <!-- 主界面上的 Shizuku 简要说明 -->
+    <string name="shizuku_brief">切换需要 Shizuku 授权：装好 Shizuku → 启动服务 → 本应用弹窗点「允许」。</string>
+    <string name="tip_switch">重新插拔 HDMI 后，vivo 电脑模式会把分辨率压回 2K，点「4K 超清」即可恢复。变灰的按钮表示外接屏当前已处于该分辨率。</string>
+
+    <!-- 帮助入口与内容 -->
+    <string name="help_entry">使用帮助 ›</string>
+    <string name="help_title">使用帮助</string>
+    <string name="help_intro">本应用通过 Shizuku 以 shell 身份执行系统命令，把 vivo 电脑模式 2K 分辨率修改成 4K 分辨率，或者还原成 2K 分辨率。第一次按下面 4 步走一遍，之后只要不重启手机就不用再配置。</string>
+
+    <string name="step1_title">1　安装 Shizuku</string>
+    <string name="step1_desc">到应用商店或 shizuku.rikka.app 下载安装 Shizuku。装完先别急着打开本应用，先把 Shizuku 的服务跑起来。</string>
+
+    <string name="step2_title">2　启动 Shizuku 服务</string>
+    <string name="step2_desc">用无线调试启动，不需要电脑。\n设置 → 开发者选项 → 打开「无线调试」→ 点「使用配对码配对设备」→ 在通知栏里输入配对码 → 回到 Shizuku 点「通过无线调试启动」。</string>
+
+    <string name="step3_title">3　授权本应用</string>
+    <string name="step3_desc">回到「X Fold6 投屏助手」，点「4K 超清」或「2K 默认」，弹出 Shizuku 授权请求时点「允许」。授权只需一次。授权成功后，标题下方的外接屏信息会自动出现。</string>
+
+    <string name="step4_title">4　确认生效</string>
+    <string name="step4_desc">回到电脑模式后观察外接屏：画面明显变清晰即已切到 4K。若仍是 2K，重新插拔 HDMI 后再点一次「4K 超清」。</string>
+
+    <string name="help_faq_title">常见问题</string>
+    <string name="help_faq_1">提示「Shizuku 未运行」：服务掉了，重新做第 2 步。重启手机后，用无线调试启动的服务会失效，需要再启动一次。</string>
+    <string name="help_faq_2">已授权但点了没反应：先确认 HDMI 插好、外接屏已被 vivo 电脑模式接管；必要时重新插拔一次再点「4K 超清」。</string>
+    <string name="help_faq_3">系统升级后可能失效，如：升级OriginOS7。</string>
+    <string name="help_close">我知道了</string>
+
+    <!-- 版权信息 -->
+    <string name="about_title">关于</string>
+    <string name="about_author">作者：河西尼（酷安）</string>
+    <string name="about_email">邮箱：ccee2000@qq.com</string>
+    <string name="about_github">GitHub：github.com/ccee2000</string>
+    <string name="about_copyright">© 2026 河西尼　保留所有权利</string>
+</resources>
