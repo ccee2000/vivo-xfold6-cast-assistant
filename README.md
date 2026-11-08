@@ -35,6 +35,8 @@ Same monitor (LECOO M3221PL, 3840×2160 @ 60Hz), same HDMI cable, one tap apart.
 
 4 steps to set up Shizuku, all on the phone, no desktop ADB; entry point is "Help ›" on the main screen (「使用帮助 ›」 in the Chinese build).
 
+![Built-in guide](./assets/05-app-help.jpg)
+
 ## Compatibility
 
 - Tested device: vivo X Fold6
@@ -123,6 +125,8 @@ vivo X Fold6 原生电脑模式下，外接显示器（有线 HDMI 或无线投�
 ### 内置使用帮助
 
 4 步配置 Shizuku，全部在手机上完成，不需要电脑 ADB，入口在主界面「使用帮助」。
+
+![内置使用帮助](./assets/05-app-help.jpg)
 
 ## 适配说明
 
