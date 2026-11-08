@@ -18,10 +18,6 @@ The panel itself is 3840×2160 @ 60Hz, but the system only renders 2560×1440 by
 
 ![App UI](./assets/04-app-ui-en.jpg)
 
-**App UI (Chinese build)**
-
-![App UI 中文版](./assets/01-app-ui.jpg)
-
 **PC Mode on the external monitor (one 2K, one 4K)**
 
 Same monitor (LECOO M3221PL, 3840×2160 @ 60Hz), same HDMI cable, one tap apart. These two images are the monitor's own output, so their pixel size is the render size — compare the sharpness of the desktop icons and text directly:
@@ -33,9 +29,9 @@ Same monitor (LECOO M3221PL, 3840×2160 @ 60Hz), same HDMI cable, one tap apart.
 
 ### Built-in guide
 
-4 steps to set up Shizuku, all on the phone, no desktop ADB; entry point is "Help ›" on the main screen (「使用帮助 ›」 in the Chinese build).
+4 steps to set up Shizuku, all on the phone, no desktop ADB; entry point is "Help ›" on the main screen.
 
-![Built-in guide](./assets/05-app-help.jpg)
+![Built-in guide](./assets/05-app-help-en.jpg)
 
 ## Compatibility
 
@@ -108,10 +104,6 @@ vivo X Fold6 原生电脑模式下，外接显示器（有线 HDMI 或无线投�
 **App 界面（手机端，中文版）**
 
 ![App 界面](./assets/01-app-ui.jpg)
-
-**App 界面（英文版）**
-
-![App 界面 英文版](./assets/04-app-ui-en.jpg)
 
 **外接显示器电脑模式（2K / 4K 各一张）**
 
