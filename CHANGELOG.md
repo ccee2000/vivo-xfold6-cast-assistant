@@ -21,3 +21,6 @@
 - 状态面板改为格式串，英文版显示 `Display: xxx (displayId=xx)` / `State: 2K (overridden by system)`
 - 英文版桌面名 `X Fold6 Cast`，README 中英双份都补充双包下载表与外接屏 2K/4K 对照
 
+## 文档
+
+- README 合并为中英双语单文件（README.md）：英文在顶部、中文在下方，删除独立 README_EN.md；仓库首页默认渲染英文
