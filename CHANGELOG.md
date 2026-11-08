@@ -11,4 +11,4 @@
 - 常见问题精简，末尾提示改为「系统升级后可能失效，如：升级OriginOS7。」
 - 版权信息：作者 河西尼（酷安），邮箱、GitHub，移除微信
 - versionCode = 1，versionName = 1.0
-- README 增加界面预览：主界面 2K / 4K 状态对比截图与使用帮助弹窗截图（assets/）
+- README 界面预览改为 App 界面 1 张 + 外接显示器电脑模式 2K / 4K 实拍各 1 张（assets/）

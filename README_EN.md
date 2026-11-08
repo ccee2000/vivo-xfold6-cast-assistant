@@ -10,20 +10,24 @@ In vivo X Fold6 PC Mode, an HDMI-connected external display is locked to a 2K re
 
 The panel itself is 3840×2160 @ 60Hz, but the system only renders 2560×1440 by default. This tool restores what gets cut.
 
-### Screenshots (2K vs 4K)
+### Screenshots
 
-Same monitor, same HDMI cable, one tap apart:
+**App UI (on the phone)**
+
+![App UI](./assets/01-app-ui.jpg)
+
+**PC Mode on the external monitor (one 2K, one 4K)**
+
+Same monitor (LECOO M3221PL, 3840×2160 @ 60Hz), same HDMI cable, one tap apart. These two images are the monitor's own output, so their pixel size is the render size — compare the sharpness of the desktop icons and text directly:
 
 | 2K default (system override) | 4K Ultra (after switching) |
 | --- | --- |
-| ![2K default](./assets/01-app-2k.png) | ![4K Ultra](./assets/02-app-4k.png) |
-| Render 2560 × 1440, state: 2K (overridden by system) | Render 3840 × 2160, state: 4K (native) |
+| ![External 2K](./assets/02-pc-mode-2k.jpg) | ![External 4K](./assets/03-pc-mode-4k.jpg) |
+| Render 2560 × 1440 (app shows state 2K, overridden by system) | Render 3840 × 2160 (app shows state 4K, native) |
 
 ### Built-in guide
 
-4 steps to set up Shizuku, all on the phone, no desktop ADB:
-
-![Help dialog](./assets/03-help.png)
+4 steps to set up Shizuku, all on the phone, no desktop ADB; entry point is "使用帮助" on the main screen.
 
 ## Compatibility
 
