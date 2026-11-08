@@ -12,7 +12,6 @@
     <string name="title_hint">vivo PC Mode required</string>
 
     <!-- Status header -->
-    <string name="status_device">X Fold6 · PC Mode</string>
     <string name="status_os">OriginOS 6 verified</string>
     <string name="status_os_warn">May break after OS7</string>
 

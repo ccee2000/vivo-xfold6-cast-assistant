@@ -14,7 +14,6 @@
     <string name="title_hint">需 vivo 电脑模式</string>
 
     <!-- 顶部状态信息 -->
-    <string name="status_device">X Fold6 · 电脑模式</string>
     <string name="status_os">OriginOS 6 已验证</string>
     <string name="status_os_warn">升级 OS7 后可能失效</string>
 

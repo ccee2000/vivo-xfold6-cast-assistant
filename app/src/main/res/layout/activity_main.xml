@@ -44,17 +44,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:gravity="center_horizontal"
-            android:text="@string/status_device"
-            android:textSize="13sp"
-            android:textStyle="bold"
-            android:alpha="0.75" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="10dp"
             android:gravity="center_horizontal"
             android:text="@string/status_os"
             android:textSize="12sp"
