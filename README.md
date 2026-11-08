@@ -2,13 +2,13 @@
 
 # X Fold6 Cast Assistant
 
-A resolution switcher for wired external displays under vivo X Fold6 PC Mode.
+A resolution switcher for external displays (wired or wireless) under vivo X Fold6 PC Mode.
 
 > This is a personal hobby tool, built with AI assistance, mainly for my own vivo X Fold6. Shared as open source, no long-term maintenance guarantee.
 
 ## Introduction
 
-In vivo X Fold6 PC Mode, an HDMI-connected external display is locked to a 2K render size by the system. This app uses Shizuku to run shell commands and switch the external display render size to 4K, or restore it back to 2K.
+In vivo X Fold6 PC Mode, an external display (wired HDMI or wireless cast) is locked to a 2K render size by the system. This app uses Shizuku to run shell commands and switch the external display render size to 4K, or restore it back to 2K.
 
 The panel itself is 3840×2160 @ 60Hz, but the system only renders 2560×1440 by default. This tool restores what gets cut.
 
@@ -39,7 +39,7 @@ Same monitor (LECOO M3221PL, 3840×2160 @ 60Hz), same HDMI cable, one tap apart.
 
 - Tested device: vivo X Fold6
 - Tested OS: OriginOS 6
-- Wired HDMI PC Mode only; wireless cast is not supported
+- Works with both wired HDMI and wireless cast in vivo PC Mode; 4K switching confirmed working over wireless cast too
 - May stop working after system updates, e.g. upgrading to OriginOS 7
 
 ## Features
@@ -91,13 +91,13 @@ MIT
 <a id="zh"></a>
 # X Fold6 投屏助手
 
-> vivo X Fold6 电脑模式有线外接屏分辨率切换工具
+> vivo X Fold6 电脑模式外接屏分辨率切换工具（有线 HDMI / 无线投屏）
 
 本项目只是个人业余自用工具，借助 AI 辅助开发，优先适配我自己的 vivo X Fold6，开源分享，不保证长期维护。
 
 ## 介绍
 
-vivo X Fold6 原生电脑模式下，HDMI 有线外接显示器会被系统压到 2K 渲染。本应用通过 Shizuku 以 shell 身份执行系统命令，把外接屏渲染分辨率切到 4K，或者还原回 2K。
+vivo X Fold6 原生电脑模式下，外接显示器（有线 HDMI 或无线投屏）会被系统压到 2K 渲染。本应用通过 Shizuku 以 shell 身份执行系统命令，把外接屏渲染分辨率切到 4K，或者还原回 2K。
 
 外接屏物理分辨率 3840×2160 @ 60Hz，系统默认只给 2560×1440 渲染，本工具就是把被压掉的那部分补回来。
 
@@ -128,7 +128,7 @@ vivo X Fold6 原生电脑模式下，HDMI 有线外接显示器会被系统压�
 
 - 测试设备：vivo X Fold6
 - 测试系统：OriginOS 6（已实测通过）
-- 仅支持有线 HDMI + vivo 电脑模式，无线投屏不生效
+- 有线 HDMI 与无线投屏均支持，需在 vivo 电脑模式下使用；无线投屏切 4K 已实测可用
 - 系统升级后可能失效，如：升级 OriginOS 7
 
 ## 功能
