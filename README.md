@@ -14,9 +14,13 @@ vivo X Fold6 原生电脑模式下，HDMI 有线外接显示器会被系统压�
 
 ### 界面预览
 
-**App 界面（手机端）**
+**App 界面（手机端，中文版）**
 
 ![App 界面](./assets/01-app-ui.jpg)
+
+**App 界面（英文版）**
+
+![App 界面 英文版](./assets/04-app-ui-en.jpg)
 
 **外接显示器电脑模式（2K / 4K 各一张）**
 
@@ -56,7 +60,17 @@ vivo X Fold6 原生电脑模式下，HDMI 有线外接显示器会被系统压�
 
 ## 下载
 
-APK 见本仓库 Releases 页：`XFold6_Cast_CN_v1.0.apk`（包名 `com.test.virtual4k`，中文版）。
+APK 见本仓库 Releases 页（v1.0）。中文版、英文版是两个独立包，可以同时安装、互不影响，功能完全一致，只是界面语言不同：
+
+| 版本 | 文件 | 包名 | 界面语言 |
+| --- | --- | --- | --- |
+| 中文版 | `XFold6_Cast_CN_v1.0.apk` | `com.test.virtual4k` | 中文 |
+| 英文版 | `XFold6_Cast_EN_v1.0.apk` | `com.test.virtual4k.en` | English |
+
+直链：
+
+- 中文版：https://github.com/ccee2000/vivo-xfold6-cast-assistant/releases/download/v1.0/XFold6_Cast_CN_v1.0.apk
+- 英文版：https://github.com/ccee2000/vivo-xfold6-cast-assistant/releases/download/v1.0/XFold6_Cast_EN_v1.0.apk
 
 ## 说明
 

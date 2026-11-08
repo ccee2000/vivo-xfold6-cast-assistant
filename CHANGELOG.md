@@ -12,3 +12,12 @@
 - 版权信息：作者 河西尼（酷安），邮箱、GitHub，移除微信
 - versionCode = 1，versionName = 1.0
 - README 界面预览改为 App 界面 1 张 + 外接显示器电脑模式 2K / 4K 实拍各 1 张（assets/）
+
+## v1.0 英文版（并入同一个 v1.0 Release）
+
+- 新增英文版 APK：`XFold6_Cast_EN_v1.0.apk`，包名 `com.test.virtual4k.en`（`com.test.virtual4k` 为中文版），两个包可同时安装
+- 工程加入 Gradle productFlavors：`cn` / `en`，各自 applicationId，资源按 flavor 覆盖
+- 界面文案（含状态面板、Toast）全部迁入字符串资源，英文包使用 `app/src/en/res/values/strings.xml` 全量英译，界面不再有硬编码中文
+- 状态面板改为格式串，英文版显示 `Display: xxx (displayId=xx)` / `State: 2K (overridden by system)`
+- 英文版桌面名 `X Fold6 Cast`，README 中英双份都补充双包下载表与外接屏 2K/4K 对照
+

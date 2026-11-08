@@ -59,9 +59,9 @@ class MainActivity : AppCompatActivity() {
         Shizuku.OnRequestPermissionResultListener { requestCode, grantResult ->
             if (requestCode == REQ_SHIZUKU) {
                 if (grantResult == PackageManager.PERMISSION_GRANTED) {
-                    toast("Shizuku 权限已授予，再点一次按钮")
+                    toast(getString(R.string.toast_shizuku_granted))
                 } else {
-                    toast("Shizuku 权限被拒绝")
+                    toast(getString(R.string.toast_shizuku_denied))
                 }
             }
         }
@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
         } catch (t: Throwable) {
             Log.w(TAG, "打开链接失败: ${t.message}")
-            toast("没有找到可用的浏览器")
+            toast(getString(R.string.toast_no_browser))
         }
     }
 
@@ -150,7 +150,7 @@ class MainActivity : AppCompatActivity() {
 
         val display = findExternalDisplay()
         if (display == null) {
-            infoView.text = "未检测到外接屏\n\n请接上 HDMI 后再查看"
+            infoView.text = getString(R.string.info_no_display)
             btn4k.isEnabled = false
             btn2k.isEnabled = false
             return
@@ -161,14 +161,13 @@ class MainActivity : AppCompatActivity() {
         val isNative = real[0] == mode.physicalWidth && real[1] == mode.physicalHeight
         val down2k = downscaledSize(mode)
 
-        val stateText = if (isNative) "4K（原生物理分辨率）" else "2K（被系统分辨率覆盖压制）"
+        val stateText = if (isNative) getString(R.string.state_4k) else getString(R.string.state_2k)
 
         infoView.text = buildString {
-            append("外接屏：").append(display.name).append("（displayId=").append(display.displayId).append("）\n")
-            append("物理分辨率：").append(mode.physicalWidth).append(" × ").append(mode.physicalHeight)
-            append(" @ ").append(mode.refreshRate.toInt()).append(" Hz\n")
-            append("当前渲染：").append(real[0]).append(" × ").append(real[1]).append("\n")
-            append("状态：").append(stateText)
+            append(getString(R.string.info_line_ext, display.name, display.displayId)).append("\n")
+            append(getString(R.string.info_line_phys, mode.physicalWidth, mode.physicalHeight, mode.refreshRate.toInt())).append("\n")
+            append(getString(R.string.info_line_render, real[0], real[1])).append("\n")
+            append(getString(R.string.info_line_state, stateText))
         }
 
         btn4k.isEnabled = !busy
@@ -191,17 +190,17 @@ class MainActivity : AppCompatActivity() {
     private fun switchTo(force4k: Boolean) {
         val display = findExternalDisplay()
         if (display == null) {
-            toast("没有检测到外接屏")
+            toast(getString(R.string.toast_no_display))
             return
         }
 
         if (Shizuku.isPreV11() || !Shizuku.pingBinder()) {
-            toast("Shizuku 未运行，请先启动 Shizuku")
+            toast(getString(R.string.toast_shizuku_not_running))
             return
         }
         if (Shizuku.checkSelfPermission() != PackageManager.PERMISSION_GRANTED) {
             Shizuku.requestPermission(REQ_SHIZUKU)
-            toast("请允许 Shizuku 授权，授权后再点一次")
+            toast(getString(R.string.toast_shizuku_request))
             return
         }
 
@@ -227,7 +226,7 @@ class MainActivity : AppCompatActivity() {
             runOnUiThread {
                 busy = false
                 refresh(null)
-                toast("$actionName 已执行")
+                toast(getString(R.string.toast_done, actionName))
                 // 系统生效有延迟，2 秒后再核对一次结果
                 infoView.postDelayed({ refresh(null) }, 2000)
             }

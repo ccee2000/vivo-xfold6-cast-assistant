@@ -12,9 +12,13 @@ The panel itself is 3840×2160 @ 60Hz, but the system only renders 2560×1440 by
 
 ### Screenshots
 
-**App UI (on the phone)**
+**App UI (English build)**
 
-![App UI](./assets/01-app-ui.jpg)
+![App UI](./assets/04-app-ui-en.jpg)
+
+**App UI (Chinese build)**
+
+![App UI 中文版](./assets/01-app-ui.jpg)
 
 **PC Mode on the external monitor (one 2K, one 4K)**
 
@@ -27,7 +31,7 @@ Same monitor (LECOO M3221PL, 3840×2160 @ 60Hz), same HDMI cable, one tap apart.
 
 ### Built-in guide
 
-4 steps to set up Shizuku, all on the phone, no desktop ADB; entry point is "使用帮助" on the main screen.
+4 steps to set up Shizuku, all on the phone, no desktop ADB; entry point is "Help ›" on the main screen (「使用帮助 ›」 in the Chinese build).
 
 ## Compatibility
 
@@ -54,7 +58,17 @@ The service started via wireless debugging stops after a reboot and has to be st
 
 ## Download
 
-See the Releases page of this repository: `XFold6_Cast_CN_v1.0.apk` (package `com.test.virtual4k`, Chinese UI).
+APKs are on the Releases page (v1.0). The Chinese and English builds are two separate packages that can be installed side by side; features are identical, only the UI language differs:
+
+| Build | File | applicationId | UI language |
+| --- | --- | --- | --- |
+| Chinese | `XFold6_Cast_CN_v1.0.apk` | `com.test.virtual4k` | 中文 |
+| English | `XFold6_Cast_EN_v1.0.apk` | `com.test.virtual4k.en` | English |
+
+Direct links:
+
+- Chinese: https://github.com/ccee2000/vivo-xfold6-cast-assistant/releases/download/v1.0/XFold6_Cast_CN_v1.0.apk
+- English: https://github.com/ccee2000/vivo-xfold6-cast-assistant/releases/download/v1.0/XFold6_Cast_EN_v1.0.apk
 
 ## Notice
 

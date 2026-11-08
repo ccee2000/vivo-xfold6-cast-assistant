@@ -55,4 +55,22 @@
     <string name="about_email">邮箱：ccee2000@qq.com</string>
     <string name="about_github">GitHub：github.com/ccee2000</string>
     <string name="about_copyright">© 2026 河西尼　保留所有权利</string>
+
+    <!-- 主界面状态面板 -->
+    <string name="info_no_display">未检测到外接屏\n\n请接上 HDMI 后再查看</string>
+    <string name="info_line_ext">外接屏：%1$s（displayId=%2$d）</string>
+    <string name="info_line_phys">物理分辨率：%1$d × %2$d @ %3$d Hz</string>
+    <string name="info_line_render">当前渲染：%1$d × %2$d</string>
+    <string name="info_line_state">状态：%1$s</string>
+    <string name="state_4k">4K（原生物理分辨率）</string>
+    <string name="state_2k">2K（被系统分辨率覆盖压制）</string>
+
+    <!-- 提示语 -->
+    <string name="toast_no_display">没有检测到外接屏</string>
+    <string name="toast_no_browser">没有找到可用的浏览器</string>
+    <string name="toast_shizuku_not_running">Shizuku 未运行，请先启动 Shizuku</string>
+    <string name="toast_shizuku_request">请允许 Shizuku 授权，授权后再点一次</string>
+    <string name="toast_shizuku_granted">Shizuku 权限已授予，再点一次按钮</string>
+    <string name="toast_shizuku_denied">Shizuku 权限被拒绝</string>
+    <string name="toast_done">%1$s 已执行</string>
 </resources>
