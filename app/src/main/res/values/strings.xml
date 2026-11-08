@@ -11,42 +11,42 @@
     <!-- 页面标题（分两行排版，避免长标题被挤或折行难看） -->
     <string name="title_brand">vivo X Fold6</string>
     <string name="title_main">外接屏分辨率切换</string>
-    <string name="title_hint">建议使用 HDMI 有线连接（vivo 电脑模式）</string>
+    <string name="title_hint">需 vivo 电脑模式</string>
 
     <!-- 顶部状态信息 -->
-    <string name="status_device">vivo X Fold6 · 电脑模式专用</string>
-    <string name="status_os">系统支持：OriginOS 6（已实测通过）</string>
-    <string name="status_os_warn">升级 OriginOS 7 后兼容性未知，请谨慎升级</string>
+    <string name="status_device">X Fold6 · 电脑模式</string>
+    <string name="status_os">OriginOS 6 已验证</string>
+    <string name="status_os_warn">升级 OS7 后可能失效</string>
 
     <!-- 切换按钮 -->
     <string name="btn_4k">4K 超清</string>
     <string name="btn_2k">2K 默认</string>
 
     <!-- 主界面上的 Shizuku 简要说明 -->
-    <string name="shizuku_brief">切换需要 Shizuku 授权：装好 Shizuku → 启动服务 → 本应用弹窗点「允许」。</string>
-    <string name="tip_switch">重新插拔 HDMI 后，vivo 电脑模式会把分辨率压回 2K，点「4K 超清」即可恢复。变灰的按钮表示外接屏当前已处于该分辨率。</string>
+    <string name="shizuku_brief">需 Shizuku 授权：启动服务后点「允许」。</string>
+    <string name="tip_switch">断开重连后分辨率可能回落到 2K，再点「4K 超清」。灰按钮＝当前分辨率。</string>
 
     <!-- 帮助入口与内容 -->
     <string name="help_entry">使用帮助 ›</string>
     <string name="help_title">使用帮助</string>
-    <string name="help_intro">本应用通过 Shizuku 以 shell 身份执行系统命令，把 vivo 电脑模式 2K 分辨率修改成 4K 分辨率，或者还原成 2K 分辨率。第一次按下面 4 步走一遍，之后只要不重启手机就不用再配置。</string>
+    <string name="help_intro">通过 Shizuku 以 shell 身份执行系统命令，把 vivo 电脑模式下外接屏的 2K 渲染改成 4K，或还原成 2K。有线 HDMI 和无线投屏都支持。首次按下面 4 步配置一次，不重启手机就不用再配。</string>
 
     <string name="step1_title">1　安装 Shizuku</string>
-    <string name="step1_desc">到应用商店或 shizuku.rikka.app 下载安装 Shizuku。装完先别急着打开本应用，先把 Shizuku 的服务跑起来。</string>
+    <string name="step1_desc">到 shizuku.rikka.app 或应用商店下载安装 Shizuku。装完先别急着打开本应用，先把 Shizuku 的服务跑起来。</string>
 
     <string name="step2_title">2　启动 Shizuku 服务</string>
-    <string name="step2_desc">用无线调试启动，不需要电脑。\n设置 → 开发者选项 → 打开「无线调试」→ 点「使用配对码配对设备」→ 在通知栏里输入配对码 → 回到 Shizuku 点「通过无线调试启动」。</string>
+    <string name="step2_desc">用无线调试启动，不需要电脑。\n设置 → 开发者选项 → 打开「无线调试」→ 点「使用配对码配对设备」→ 在通知栏输入配对码 → 回到 Shizuku 点「通过无线调试启动」。</string>
 
     <string name="step3_title">3　授权本应用</string>
-    <string name="step3_desc">回到「X Fold6 投屏助手」，点「4K 超清」或「2K 默认」，弹出 Shizuku 授权请求时点「允许」。授权只需一次。授权成功后，标题下方的外接屏信息会自动出现。</string>
+    <string name="step3_desc">回到本应用，点「4K 超清」或「2K 默认」，弹出 Shizuku 授权请求时点「允许」，授权只需一次。授权成功后，标题下方的外接屏信息会自动出现。</string>
 
     <string name="step4_title">4　确认生效</string>
-    <string name="step4_desc">回到电脑模式后观察外接屏：画面明显变清晰即已切到 4K。若仍是 2K，重新插拔 HDMI 后再点一次「4K 超清」。</string>
+    <string name="step4_desc">观察外接屏：画面明显变清晰，说明已经切到 4K。若仍是 2K，断开外接屏再连接一次，然后重新点「4K 超清」。</string>
 
     <string name="help_faq_title">常见问题</string>
-    <string name="help_faq_1">提示「Shizuku 未运行」：服务掉了，重新做第 2 步。重启手机后，用无线调试启动的服务会失效，需要再启动一次。</string>
-    <string name="help_faq_2">已授权但点了没反应：先确认 HDMI 插好、外接屏已被 vivo 电脑模式接管；必要时重新插拔一次再点「4K 超清」。</string>
-    <string name="help_faq_3">系统升级后可能失效，如：升级OriginOS7。</string>
+    <string name="help_faq_1">「Shizuku 未运行」：服务掉了，重做第 2 步。重启手机后，用无线调试启动的服务会失效，需要再启动一次。</string>
+    <string name="help_faq_2">已授权但点了没反应：确认外接屏已被 vivo 电脑模式接管；必要时断开重连一次再点「4K 超清」。</string>
+    <string name="help_faq_3">系统大版本升级后可能失效，例如升级到 OriginOS 7。</string>
     <string name="help_close">我知道了</string>
 
     <!-- 版权信息 -->
@@ -57,18 +57,18 @@
     <string name="about_copyright">© 2026 河西尼　保留所有权利</string>
 
     <!-- 主界面状态面板 -->
-    <string name="info_no_display">未检测到外接屏\n\n请接上 HDMI 后再查看</string>
+    <string name="info_no_display">未检测到外接屏\n\n请连接外接屏后重试</string>
     <string name="info_line_ext">外接屏：%1$s（displayId=%2$d）</string>
     <string name="info_line_phys">物理分辨率：%1$d × %2$d @ %3$d Hz</string>
     <string name="info_line_render">当前渲染：%1$d × %2$d</string>
     <string name="info_line_state">状态：%1$s</string>
-    <string name="state_4k">4K（原生物理分辨率）</string>
-    <string name="state_2k">2K（被系统分辨率覆盖压制）</string>
+    <string name="state_4k">4K（原生）</string>
+    <string name="state_2k">2K（被压制）</string>
 
     <!-- 提示语 -->
     <string name="toast_no_display">没有检测到外接屏</string>
     <string name="toast_no_browser">没有找到可用的浏览器</string>
-    <string name="toast_shizuku_not_running">Shizuku 未运行，请先启动 Shizuku</string>
+    <string name="toast_shizuku_not_running">Shizuku 未运行，请先启动</string>
     <string name="toast_shizuku_request">请允许 Shizuku 授权，授权后再点一次</string>
     <string name="toast_shizuku_granted">Shizuku 权限已授予，再点一次按钮</string>
     <string name="toast_shizuku_denied">Shizuku 权限被拒绝</string>

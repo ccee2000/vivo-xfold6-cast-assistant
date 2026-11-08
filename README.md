@@ -60,17 +60,17 @@ The service started via wireless debugging stops after a reboot and has to be st
 
 ## Download
 
-APKs are on the Releases page (v1.0). The Chinese and English builds are two separate packages that can be installed side by side; features are identical, only the UI language differs:
+APKs are on the Releases page (v1.1). The Chinese and English builds are two separate packages that can be installed side by side; features are identical, only the UI language differs:
 
 | Build | File | applicationId | UI language |
 | --- | --- | --- | --- |
-| Chinese | `XFold6_Cast_CN_v1.0.apk` | `com.test.virtual4k` | 中文 |
-| English | `XFold6_Cast_EN_v1.0.apk` | `com.test.virtual4k.en` | English |
+| Chinese | `XFold6_Cast_CN_v1.1.apk` | `com.test.virtual4k` | 中文 |
+| English | `XFold6_Cast_EN_v1.1.apk` | `com.test.virtual4k.en` | English |
 
 Direct links:
 
-- Chinese: https://github.com/ccee2000/vivo-xfold6-cast-assistant/releases/download/v1.0/XFold6_Cast_CN_v1.0.apk
-- English: https://github.com/ccee2000/vivo-xfold6-cast-assistant/releases/download/v1.0/XFold6_Cast_EN_v1.0.apk
+- Chinese: https://github.com/ccee2000/vivo-xfold6-cast-assistant/releases/download/v1.1/XFold6_Cast_CN_v1.1.apk
+- English: https://github.com/ccee2000/vivo-xfold6-cast-assistant/releases/download/v1.1/XFold6_Cast_EN_v1.1.apk
 
 ## Notice
 
@@ -149,17 +149,17 @@ vivo X Fold6 原生电脑模式下，外接显示器（有线 HDMI 或无线投�
 
 ## 下载
 
-APK 见本仓库 Releases 页（v1.0）。中文版、英文版是两个独立包，可以同时安装、互不影响，功能完全一致，只是界面语言不同：
+APK 见本仓库 Releases 页（v1.1）。中文版、英文版是两个独立包，可以同时安装、互不影响，功能完全一致，只是界面语言不同：
 
 | 版本 | 文件 | 包名 | 界面语言 |
 | --- | --- | --- | --- |
-| 中文版 | `XFold6_Cast_CN_v1.0.apk` | `com.test.virtual4k` | 中文 |
-| 英文版 | `XFold6_Cast_EN_v1.0.apk` | `com.test.virtual4k.en` | English |
+| 中文版 | `XFold6_Cast_CN_v1.1.apk` | `com.test.virtual4k` | 中文 |
+| 英文版 | `XFold6_Cast_EN_v1.1.apk` | `com.test.virtual4k.en` | English |
 
 直链：
 
-- 中文版：https://github.com/ccee2000/vivo-xfold6-cast-assistant/releases/download/v1.0/XFold6_Cast_CN_v1.0.apk
-- 英文版：https://github.com/ccee2000/vivo-xfold6-cast-assistant/releases/download/v1.0/XFold6_Cast_EN_v1.0.apk
+- 中文版：https://github.com/ccee2000/vivo-xfold6-cast-assistant/releases/download/v1.1/XFold6_Cast_CN_v1.1.apk
+- 英文版：https://github.com/ccee2000/vivo-xfold6-cast-assistant/releases/download/v1.1/XFold6_Cast_EN_v1.1.apk
 
 ## 说明
 

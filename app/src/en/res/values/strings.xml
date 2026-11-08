@@ -9,42 +9,42 @@
     <!-- Page title -->
     <string name="title_brand">vivo X Fold6</string>
     <string name="title_main">External Display Resolution</string>
-    <string name="title_hint">Wired HDMI recommended (vivo PC Mode)</string>
+    <string name="title_hint">vivo PC Mode required</string>
 
     <!-- Status header -->
-    <string name="status_device">vivo X Fold6 · PC Mode only</string>
-    <string name="status_os">System: OriginOS 6 (verified)</string>
-    <string name="status_os_warn">Compatibility after upgrading to OriginOS 7 is unknown, update with caution</string>
+    <string name="status_device">X Fold6 · PC Mode</string>
+    <string name="status_os">OriginOS 6 verified</string>
+    <string name="status_os_warn">May break after OS7</string>
 
     <!-- Switch buttons -->
     <string name="btn_4k">4K Ultra</string>
     <string name="btn_2k">2K Default</string>
 
     <!-- Shizuku note on the main screen -->
-    <string name="shizuku_brief">Switching requires Shizuku: install Shizuku → start its service → tap Allow in this app\'s dialog.</string>
-    <string name="tip_switch">After re-plugging the HDMI cable, vivo PC Mode pushes the resolution back to 2K; tap 4K Ultra to restore it. A dimmed button means the display is already at that resolution.</string>
+    <string name="shizuku_brief">Requires Shizuku: start the service, then tap Allow.</string>
+    <string name="tip_switch">May drop back to 2K after reconnecting; tap 4K Ultra again. A dimmed button = current resolution.</string>
 
     <!-- Help entry and content -->
     <string name="help_entry">Help ›</string>
     <string name="help_title">Help</string>
-    <string name="help_intro">This app runs shell commands through Shizuku to change the vivo PC Mode resolution from 2K to 4K, or restore it back to 2K. Follow the 4 steps below once; after that you only need to redo them if you reboot the phone.</string>
+    <string name="help_intro">Runs shell commands through Shizuku to change the external display render size from 2K to 4K, or back to 2K, in vivo PC Mode. Works with wired HDMI and wireless cast alike. Set up once with the four steps below; no re-configuration until the phone reboots.</string>
 
     <string name="step1_title">1　Install Shizuku</string>
-    <string name="step1_desc">Download and install Shizuku from an app store or shizuku.rikka.app. Don\'t open this app yet — start the Shizuku service first.</string>
+    <string name="step1_desc">Download Shizuku from shizuku.rikka.app or your app store. Start its service before opening this app.</string>
 
     <string name="step2_title">2　Start the Shizuku service</string>
-    <string name="step2_desc">Start it via wireless debugging, no computer needed.\nSettings → Developer options → enable Wireless debugging → tap "Pair device with pairing code" → enter the code in the notification → back in Shizuku tap "Start via wireless debugging".</string>
+    <string name="step2_desc">Start it via wireless debugging, no computer needed.\nSettings → Developer options → enable Wireless debugging → tap “Pair device with pairing code” → enter the code in the notification → back in Shizuku tap “Start via wireless debugging”.</string>
 
     <string name="step3_title">3　Grant this app access</string>
-    <string name="step3_desc">Return to X Fold6 Cast, tap "4K Ultra" or "2K Default", and tap Allow when Shizuku asks. One-time only. Once granted, the display info appears under the title.</string>
+    <string name="step3_desc">Return to this app, tap 4K Ultra or 2K Default, and allow Shizuku when prompted. The grant is one-time; the display info appears under the title afterwards.</string>
 
     <string name="step4_title">4　Confirm it took effect</string>
-    <string name="step4_desc">Back in PC Mode, look at the external display: if it is noticeably sharper it is on 4K. If it is still 2K, re-plug the HDMI cable and tap "4K Ultra" again.</string>
+    <string name="step4_desc">Check the external display: a clearly sharper picture means it is on 4K. If it is still 2K, disconnect and reconnect the display, then tap 4K Ultra again.</string>
 
     <string name="help_faq_title">FAQ</string>
-    <string name="help_faq_1">"Shizuku not running": the service died, redo step 2. A service started via wireless debugging stops after a reboot and has to be started again.</string>
-    <string name="help_faq_2">Granted but tapping does nothing: make sure the HDMI cable is connected and the display is taken over by vivo PC Mode; if needed re-plug the cable and tap "4K Ultra" again.</string>
-    <string name="help_faq_3">May stop working after a system update, e.g. upgrading to OriginOS 7.</string>
+    <string name="help_faq_1">“Shizuku not running”: the service died, redo step 2. A service started via wireless debugging stops after a reboot and has to be started again.</string>
+    <string name="help_faq_2">Granted but tapping does nothing: make sure the display is taken over by vivo PC Mode; if needed reconnect it and tap again.</string>
+    <string name="help_faq_3">May stop working after a major system upgrade, e.g. OriginOS 7.</string>
     <string name="help_close">Got it</string>
 
     <!-- About -->
@@ -55,13 +55,13 @@
     <string name="about_copyright">© 2026 Hexini　All rights reserved</string>
 
     <!-- Status panel -->
-    <string name="info_no_display">No external display detected\n\nConnect an HDMI display and check again</string>
+    <string name="info_no_display">No external display detected\n\nConnect a display and retry</string>
     <string name="info_line_ext">Display: %1$s (displayId=%2$d)</string>
     <string name="info_line_phys">Native resolution: %1$d × %2$d @ %3$d Hz</string>
     <string name="info_line_render">Current render: %1$d × %2$d</string>
     <string name="info_line_state">State: %1$s</string>
-    <string name="state_4k">4K (native resolution)</string>
-    <string name="state_2k">2K (overridden by system)</string>
+    <string name="state_4k">4K (native)</string>
+    <string name="state_2k">2K (overridden)</string>
 
     <!-- Toasts -->
     <string name="toast_no_display">No external display detected</string>
